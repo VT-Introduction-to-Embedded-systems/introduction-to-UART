@@ -44,7 +44,7 @@ int main(void) {
 
     UARTBaudRate_t baudRate = baud9600;
     char rChar, tChar;
-
+// small change
     while (1)
     {
         if (UART_getInterruptStatus (EUSCI_A0_BASE, EUSCI_A_UART_RECEIVE_INTERRUPT_FLAG)
